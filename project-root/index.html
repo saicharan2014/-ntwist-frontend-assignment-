@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./Assets/css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="form_div">
+        <form id="form">
+          <input
+            type="text"
+            name="username"
+            id="username"
+            required
+            placeholder="username"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+            placeholder="email"
+          />
+
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            required
+            placeholder="message"
+          ></textarea>
+          <button class="submit_btn" type="submit">Submit</button>
+        </form>
+      </div>
+      <div class="aside_div">
+        <aside class="sidebar">
+          <h2>Navigation</h2>
+          <nav>
+            <ul>
+              <li><a href="#web-dev">Web Development</a></li>
+              <li><a href="#frontend-backend">Frontend vs Backend</a></li>
+              <li><a href="#languages">Essential Languages</a></li>
+              <li><a href="#responsive">Responsive Design</a></li>
+              <li><a href="#cms">CMS</a></li>
+              <li><a href="#hosting">Web Hosting</a></li>
+              <li><a href="#seo">SEO Basics</a></li>
+              <li><a href="#security">Security</a></li>
+              <li><a href="#frameworks">Frameworks</a></li>
+              <li><a href="#career">Career Path</a></li>
+            </ul>
+          </nav>
+        </aside>
+      </div>
+    </main>
+    .
+
+    <script src="./Assets/js.js"></script>
+  </body>
+</html>
